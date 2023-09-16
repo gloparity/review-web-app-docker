@@ -11,6 +11,6 @@ RUN npm install
 # copying all application files to the workdirectory
 COPY . /app/
 #exposing port
-EXPOSE 3000
+EXPOSE 80
 # executing web application
 CMD [ "node", "server.js" ]
